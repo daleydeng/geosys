@@ -1,0 +1,6 @@
+regions:
+  - type: square
+    center: [39.90556, 116.391314]
+    radius: 100 # meters
+
+seed_gap: 50

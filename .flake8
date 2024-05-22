@@ -1,0 +1,17 @@
+[flake8]
+max-line-length = 88
+# W503 has bug
+ignore = W503, E302
+exclude =
+        .*
+        *.egg-info
+        *.lock
+        *.toml
+        __pycache__
+        setup.py
+        doc/
+        build/
+        dist/
+        tmp/
+        doc/
+        samples/data/

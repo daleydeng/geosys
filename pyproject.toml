@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "geosys"
+version = "0.1.0"
+description = ""
+authors = ["daleydeng <daleydeng@qingtong123.com>"]
+
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = "*"
+scipy = "*"
+#Polygon3 = "^3.0"
+shapely = "*"
+geopy = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

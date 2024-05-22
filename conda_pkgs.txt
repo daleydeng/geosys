@@ -1,0 +1,6 @@
+pillow
+shapely
+polygon3
+geopy
+lxml
+click
